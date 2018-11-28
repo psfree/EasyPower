@@ -4,10 +4,6 @@
 
 #include "max77620.h"
 
-u32 i2c_send_byte(u32 idx, u32 x, u32 y, u8 b)
-{
-	i2c_send_buf_small(idx, x, y, &b, 1);
-}
 
 int main()
 {
